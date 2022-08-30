@@ -1,0 +1,21 @@
+.the-social-flex-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.back-to-tsq {
+    font-style: normal;
+    font-family: 'Halis GR';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 13px 18px;
+    background: #008C99;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+}
