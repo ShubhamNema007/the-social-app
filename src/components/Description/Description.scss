@@ -1,3 +1,4 @@
+@import "../../Scss/Variable.scss";
 .next-genration-section {
     padding-top: 115px;
 }
@@ -8,31 +9,29 @@
 }
 
 .next-genration-head {
-    font-style: normal;
-    font-weight: 500;
+    @include fonts;
+    font-weight: $font-weigth-500;
     font-size: 42px;
     line-height: 52px;
-    color: #344170;
+    color: $darkblue;
     margin-bottom: 36px;
 }
 
 .next-genration-para {
-    font-style: normal;
-    font-weight: 500;
+ @include fonts;
     font-size: 18px;
     line-height: 26px;
-    color: #344170;
+    color: $darkblue;
     margin-bottom: 30px;
 }
 
 .next-genration-btn {
-    font-style: normal;
-    font-family: 'Halis GR';
-    font-weight: 500;
+  @include fonts;
+    font-weight: $font-weigth-500;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
-    background: #008C99;
+    color: $white-color;
+    background: $bluecolor;
     border-radius: 5px;
     padding: 13px 20px;
     border: none;
@@ -41,5 +40,5 @@
 
 .next-genration-btn:hover {
     background-color: #FFDC83;
-    color: #008C99;
+    color: $bluecolor;
 }

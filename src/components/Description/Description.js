@@ -1,5 +1,5 @@
 import React from "react";
-import './Description.css'
+import './Description.scss'
 import { image } from '../../Config/Image'
 
 const Description = () => {

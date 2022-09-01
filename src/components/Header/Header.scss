@@ -1,5 +1,6 @@
+@import "../../Scss/Variable.scss";
 header {
-    background: linear-gradient(90deg, rgb(255, 220, 131) 0%, rgb(237, 255, 255) 18%, rgb(130, 202, 255) 100%);
+    background: $header-gradient;
 }
 
 .the-social-flex-box {
@@ -11,14 +12,12 @@ header {
 }
 
 .back-to-tsq {
-    font-style: normal;
-    font-family: 'Halis GR';
-    font-weight: 500;
+    @include fonts;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: $white-color;
     padding: 13px 18px;
-    background: #008C99;
+    background: $bluecolor;
     border-radius: 5px;
     border: none;
     transition: 0.3s;
