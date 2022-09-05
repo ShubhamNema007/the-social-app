@@ -1,0 +1,68 @@
+@import '../../Scss/Variable.scss';
+.the-social-question-footer {
+    background-color: #0F172A;
+    padding: 82px 0;
+    .footer-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .items {
+            display: flex;
+            column-gap: 30px;
+            li {
+                list-style: none;
+                .items-css {
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: right;
+                    color: #FFFFFF;
+                }
+                .items-css {
+                    position: relative;
+                    padding: 8px;
+                    transition: 0.2s;
+                }
+                
+                .items-css::after {
+                    background: none repeat scroll 0 0 transparent;
+                    bottom: 0;
+                    content: "";
+                    display: block;
+                    height: 2px;
+                    left: 50%;
+                    position: absolute;
+                    background: #ddd;
+                    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                    width: 0;
+                }
+                
+                .items-css:hover::after {
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+        .copyright {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

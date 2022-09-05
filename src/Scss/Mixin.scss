@@ -3,3 +3,12 @@
     font-style: normal;
     font-weight: 500;
 }
+@mixin card-main-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 53px;
+    text-align: center;
+    color: #12141D;
+    margin-bottom: 78px;
+}

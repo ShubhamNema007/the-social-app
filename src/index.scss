@@ -1,11 +1,20 @@
+@import "./Scss/Variable.scss";
+
 body {
   margin: 0;
-  // font-family: $font-harlis;
+  font-family: $font-harlis;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 15px
 }

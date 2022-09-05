@@ -1,44 +1,39 @@
 @import "../../Scss/Variable.scss";
 .next-genration-section {
     padding-top: 115px;
+    .next-genration-main {
+        display: flex;
+        column-gap: 84px;.next-genration-head {
+            @include fonts;
+            font-weight: $font-weigth-500;
+            font-size: 42px;
+            line-height: 52px;
+            color: $darkblue;
+            margin-bottom: 36px;
+        }
+        .next-genration-para {
+            @include fonts;
+               font-size: 18px;
+               line-height: 26px;
+               color: $darkblue;
+               margin-bottom: 30px;
+           }
+           .next-genration-btn {
+            @include fonts;
+              font-weight: $font-weigth-500;
+              font-size: 16px;
+              line-height: 24px;
+              color: $white-color;
+              background: $bluecolor;
+              border-radius: 5px;
+              padding: 13px 20px;
+              border: none;
+              transition: 0.3s; 
+          }
+          .next-genration-btn:hover {
+            background-color: #FFDC83;
+            color: $bluecolor;
+        }
+    }
 }
 
-.next-genration-main {
-    display: flex;
-    column-gap: 84px;
-}
-
-.next-genration-head {
-    @include fonts;
-    font-weight: $font-weigth-500;
-    font-size: 42px;
-    line-height: 52px;
-    color: $darkblue;
-    margin-bottom: 36px;
-}
-
-.next-genration-para {
- @include fonts;
-    font-size: 18px;
-    line-height: 26px;
-    color: $darkblue;
-    margin-bottom: 30px;
-}
-
-.next-genration-btn {
-  @include fonts;
-    font-weight: $font-weigth-500;
-    font-size: 16px;
-    line-height: 24px;
-    color: $white-color;
-    background: $bluecolor;
-    border-radius: 5px;
-    padding: 13px 20px;
-    border: none;
-    transition: 0.3s;
-}
-
-.next-genration-btn:hover {
-    background-color: #FFDC83;
-    color: $bluecolor;
-}

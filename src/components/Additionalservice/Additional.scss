@@ -1,0 +1,62 @@
+@import "../../Scss/Variable.scss";
+.additional-cards-content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    height: 100%;
+    .card-img {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .card-padding {
+        padding: 23px 20px 20px 20px;
+        .card-head-additional{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 32px;
+            text-transform: capitalize;
+            color: rgb(18, 20, 29);
+            margin-bottom: 17px;
+        }
+        .additional-cards-para {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #12141D;
+            opacity: 0.7;
+            margin-bottom: 30px;
+            max-width: 340px;
+        }
+        .additional-cards-btn {
+            font-family: $font-harlis;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            color: #FFFFFF;
+            padding: 13px 28px;
+            background: #008C99;
+            border-radius: 5px;
+            border: none;
+            transition: 0.3s;
+        }
+        
+        .additional-cards-btn:hover {
+            background-color: #FFDC83;
+            color: #008C99;
+        }
+         
+    }
+}
+
+
+
+
+
+
+

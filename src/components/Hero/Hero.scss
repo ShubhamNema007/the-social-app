@@ -2,50 +2,51 @@
 
 .hero-wapper {
     background: $header-gradient;
+    .the-social-questions-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 59px;
+        .social-question-head {
+            @include fonts;
+             font-size: 58px;
+             line-height: 68px;
+             color: $darkblue;
+             margin-bottom: 30px;
+         }
+         
+         .social-question-para {
+             @include fonts;
+             font-weight: $font-weigth-400;
+             font-size: 22px;
+             line-height: 32px;
+             color: $darkblue;
+             opacity: 0.8;
+             margin-bottom: 45px;
+         }
+         .sign-up {
+             @include fonts;
+             font-weight: $font-weigth-700;
+             font-size: 16px;
+             line-height: 24px;
+             display: flex;
+             align-items: center;
+             text-align: right;
+             color: $white-color;
+             background: $bluecolor;
+             border-radius: 5px;
+             padding: 16px 27px;
+             border: none;
+             transition: 0.3s;
+         }
+         
+         .sign-up:hover {
+             background-color: #FFDC83;
+             color: $bluecolor;
+         }
+    }
+    
+    
 }
 
-.the-social-questions-flex {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    column-gap: 59px;
-}
-
-.social-question-head {
-   @include fonts;
-    font-size: 58px;
-    line-height: 68px;
-    color: $darkblue;
-    margin-bottom: 30px;
-}
-
-.social-question-para {
-    @include fonts;
-    font-weight: $font-weigth-400;
-    font-size: 22px;
-    line-height: 32px;
-    color: $darkblue;
-    opacity: 0.8;
-    margin-bottom: 45px;
-}
-.sign-up {
-    @include fonts;
-    font-weight: $font-weigth-700;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: right;
-    color: $white-color;
-    background: $bluecolor;
-    border-radius: 5px;
-    padding: 16px 27px;
-    border: none;
-    transition: 0.3s;
-}
-
-.sign-up:hover {
-    background-color: #FFDC83;
-    color: $bluecolor;
-}

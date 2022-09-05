@@ -1,24 +1,27 @@
 @import "../../Scss/Variable.scss";
 header {
     background: $header-gradient;
+    .the-social-flex-box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 14px 0;
+        .back-to-tsq {
+            @include fonts;
+            font-size: 16px;
+            line-height: 24px;
+            color: $white-color;
+            padding: 13px 18px;
+            background: $bluecolor;
+            border-radius: 5px;
+            border: none;
+            transition: 0.3s; 
+        }
+        .back-to-tsq:hover {
+            background-color: #FFDC83;
+            color: #008C99;
+        }
+    }
 }
 
-.the-social-flex-box {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 14px 0;
-}
-
-.back-to-tsq {
-    @include fonts;
-    font-size: 16px;
-    line-height: 24px;
-    color: $white-color;
-    padding: 13px 18px;
-    background: $bluecolor;
-    border-radius: 5px;
-    border: none;
-    transition: 0.3s;
-}

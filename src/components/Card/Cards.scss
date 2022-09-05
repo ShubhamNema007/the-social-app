@@ -1,0 +1,43 @@
+@import "../../Scss/Variable.scss";
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+        .card-img {
+            max-width: 100%;
+            margin-bottom: 40px;
+        }
+        .card-head {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 32px;
+            text-transform: capitalize;
+            color: #12141D;
+            margin-bottom: 17px;
+        }
+        .card-para {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            color: #12141D;
+            opacity: 0.7;
+            max-width: 340px;
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+

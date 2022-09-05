@@ -1,0 +1,42 @@
+@import "./Scss/Variable.scss";
+.transcription-tool {
+  padding: 115px 0 89px;
+  background: $section-gradient;
+  .cards-main-heading {
+   @include card-main-heading;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    margin: 0 -40px;
+  }
+}
+
+.additional-service-section {
+  padding: 98px 0 103px;
+  .additional-service {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .cards-main-heading {
+      @include card-main-heading;
+     }
+     .additional-service-cards{
+      display: flex;
+      justify-content: center;
+      margin: 0 -40px;
+      .additional-cards-col {
+        flex: 0 0 33.33%;
+        width: 33.33%;
+        max-width: 33.33%;
+        padding: 0 40px;
+      }
+     }
+  }
+}
+
+
+ 
+
+
+
